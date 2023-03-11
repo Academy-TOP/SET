@@ -32,14 +32,12 @@ our_products.discard("Mercedes")
 print(our_products)
 our_products.remove("McDonald's")
 print(our_products)
-our_products.remove("Mercedes")
-
 
 my_frozenset = frozenset()
 print(type(my_frozenset))
 my_tuple = tuple()
 print(type(my_tuple))
-my_tuple_2 = (0,)
+my_tuple_2 = (0, )
 print(type(my_tuple_2))
 my_tuple_3 = 0,
 print(type(my_tuple_3))
