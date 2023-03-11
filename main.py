@@ -2,15 +2,19 @@
 our_set = set()
 our_set_2 = {0}
 
-print('\nОпределяем тип множества:')
+print('Определяем тип множества:')
 print(our_set, type(our_set))
 print(our_set_2, type(our_set_2))
 
+print('\nНаполняем множества:')
+our_set.add("Помидор")
+our_set_2.add("Огурец")
+
+print(our_set)
+print(our_set_2)
 
 x = "Помидор"
 
-our_set.add("Помидор")
-our_set_2.add("Огурец")
 
 our_set_3 = our_set.union(our_set_2)
 our_set.update(our_set_2)
