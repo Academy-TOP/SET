@@ -26,3 +26,11 @@ print(our_products.difference(range_of_the_company_2))
 print(our_products.difference(range_of_the_company_3))
 
 print(our_products.symmetric_difference(range_of_the_company_2))
+
+our_products.discard("Apple")
+our_products.discard("Mercedes")
+print(our_products)
+our_products.remove("McDonald's")
+print(our_products)
+our_products.remove("Mercedes")
+print(our_products)
