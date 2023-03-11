@@ -33,4 +33,15 @@ print(our_products)
 our_products.remove("McDonald's")
 print(our_products)
 our_products.remove("Mercedes")
-print(our_products)
+
+
+my_frozenset = frozenset()
+print(type(my_frozenset))
+my_tuple = tuple()
+print(type(my_tuple))
+my_tuple_2 = (0,)
+print(type(my_tuple_2))
+my_tuple_3 = 0,
+print(type(my_tuple_3))
+my_tuple_4 = (0)
+print(type(my_tuple_4))
