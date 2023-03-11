@@ -38,7 +38,10 @@ print('\nПроверим входит ли множество 2 в множес
 print(our_set_3.issuperset(our_set_2))
 
 print('\nЗадача инвестор:')
+#Задаем свой перечень товаров
 our_products = {"Apple", "Tesla", "McDonald's"}
+
+#Задаем перечень компаний с нашими товарами
 range_of_the_company_1 = {"Samsung", "Sony"}
 range_of_the_company_2 = {"Apple", "IBM", "Tesla"}
 range_of_the_company_3 = {"BMW", "Tesla", "Ferrari"}
