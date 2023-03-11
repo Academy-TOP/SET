@@ -6,7 +6,8 @@ x = "Помидор"
 our_set.add("Помидор")
 our_set_2.add("Огурец")
 
-print(x in our_set)
-print(x in our_set_2)
+our_set_3 = our_set.union(our_set_2)
+our_set.update(our_set_2)
 
-print(our_set.isdisjoint(our_set_2))
+print(our_set_3)
+print(our_set)
