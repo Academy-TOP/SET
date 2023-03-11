@@ -25,6 +25,7 @@ print(len(our_set_2))
 print('\nУбедимся действительно ли массивы не содержат общие элементы:')
 print(our_set.isdisjoint(our_set_2))
 
+print('\nОбъединим и расширим наши множества:')
 our_set_3 = our_set.union(our_set_2)
 our_set.update(our_set_2)
 
