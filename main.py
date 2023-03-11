@@ -64,10 +64,10 @@ our_products.discard("Apple")
 our_products.discard("Mercedes")
 print(our_products)
 our_products.remove("McDonald's")
-our_products.remove("Mercedes")
+#our_products.remove("Mercedes")
 print(our_products)
 
-
+print('\nВывод защищенных типов данных:')
 my_frozenset = frozenset()
 print(type(my_frozenset))
 my_tuple = tuple()
