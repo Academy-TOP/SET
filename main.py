@@ -1,6 +1,8 @@
 our_set = set()
 our_set_2 = {0}
 
+
+
 x = "Помидор"
 
 our_set.add("Помидор")
