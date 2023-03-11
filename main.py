@@ -46,6 +46,7 @@ range_of_the_company_1 = {"Samsung", "Sony"}
 range_of_the_company_2 = {"Apple", "IBM", "Tesla"}
 range_of_the_company_3 = {"BMW", "Tesla", "Ferrari"}
 
+print('\nПолучаем множество общих товаров:')
 print(our_products.intersection(range_of_the_company_1))
 print(our_products.intersection(range_of_the_company_2))
 print(our_products.intersection(range_of_the_company_3))
