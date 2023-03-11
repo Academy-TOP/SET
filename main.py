@@ -13,8 +13,14 @@ our_set_2.add("Огурец")
 print(our_set)
 print(our_set_2)
 
+print('\nПроверяем наличие элемента во множестве:')
 x = "Помидор"
+print(x in our_set)
+print(x in our_set_2)
 
+print('\nОпределяем длину (размер) множества:')
+print(len(our_set))
+print(len(our_set_2))
 
 our_set_3 = our_set.union(our_set_2)
 our_set.update(our_set_2)
