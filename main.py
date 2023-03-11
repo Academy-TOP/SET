@@ -11,3 +11,10 @@ our_set.update(our_set_2)
 
 print(our_set_2.issubset(our_set_3))
 print(our_set_3.issuperset(our_set_2))
+
+
+our_products = {"Apple", "Tesla", "McDonald's"}
+range_of_the_company_1 = {"Samsung", "Sony"}
+range_of_the_company_2 = {"Apple","IBM","Tesla"}
+range_of_the_company_3 = {"BMW", "Tesla",
+ "Ferrari"}
