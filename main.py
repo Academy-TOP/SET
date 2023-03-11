@@ -51,6 +51,7 @@ print(our_products.intersection(range_of_the_company_1))
 print(our_products.intersection(range_of_the_company_2))
 print(our_products.intersection(range_of_the_company_3))
 
+print('\nОпределяем каких элементов (товаров) у нас не хватает:')
 print(our_products.difference(range_of_the_company_1))
 print(our_products.difference(range_of_the_company_2))
 print(our_products.difference(range_of_the_company_3))
