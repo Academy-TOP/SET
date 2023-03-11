@@ -20,3 +20,7 @@ range_of_the_company_3 = {"BMW", "Tesla", "Ferrari"}
 print(our_products.intersection(range_of_the_company_1))
 print(our_products.intersection(range_of_the_company_2))
 print(our_products.intersection(range_of_the_company_3))
+
+print(our_products.difference(range_of_the_company_1))
+print(our_products.difference(range_of_the_company_2))
+print(our_products.difference(range_of_the_company_3))
