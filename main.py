@@ -28,8 +28,13 @@ print(our_set.isdisjoint(our_set_2))
 print('\nОбъединим и расширим наши множества:')
 our_set_3 = our_set.union(our_set_2)
 our_set.update(our_set_2)
+print(our_set_3)
+print(our_set)
 
+print('\nПроверим содержит ли в себе множество 3 множество 2:')
 print(our_set_2.issubset(our_set_3))
+
+print('\nПроверим входит ли множество 2 в множестве 3:')
 print(our_set_3.issuperset(our_set_2))
 
 our_products = {"Apple", "Tesla", "McDonald's"}
